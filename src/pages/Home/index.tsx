@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { PostCard } from "./components/PostCard";
 import { ProfileCard } from "./components/Profile";
 import { SearchInput } from "./components/SearchInput";
