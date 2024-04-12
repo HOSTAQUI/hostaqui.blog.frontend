@@ -1,7 +1,7 @@
+import { zodResolver } from "@hookform/resolvers/zod/dist/zod.js";
 import { SearchFormContainer, StyledInput, Title } from "./styles";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
-import { zodResolver } from "@hookform/resolvers/zod/dist/zod.d.ts";
 
 const searchFormSchema = z.object({
   query: z.string(),
